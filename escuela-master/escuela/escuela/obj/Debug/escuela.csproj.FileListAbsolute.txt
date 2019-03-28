@@ -1,0 +1,7 @@
+C:\Users\Usuario\Downloads\escuela-master\escuela\escuela\bin\Debug\escuela.exe.config
+C:\Users\Usuario\Downloads\escuela-master\escuela\escuela\bin\Debug\escuela.exe
+C:\Users\Usuario\Downloads\escuela-master\escuela\escuela\bin\Debug\escuela.pdb
+C:\Users\Usuario\Downloads\escuela-master\escuela\escuela\obj\Debug\escuela.csprojAssemblyReference.cache
+C:\Users\Usuario\Downloads\escuela-master\escuela\escuela\obj\Debug\escuela.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Downloads\escuela-master\escuela\escuela\obj\Debug\escuela.exe
+C:\Users\Usuario\Downloads\escuela-master\escuela\escuela\obj\Debug\escuela.pdb
