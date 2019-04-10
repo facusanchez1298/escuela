@@ -33,17 +33,16 @@ namespace escuela
         }
         public override string direccion { get; set; }
         public override int telefono { get; set; }
-        public int matricula { get; set; }
+        public int matricula { get; }
         public Curso curso { get; set; }
         public List<Asignatura> materiasAprobadas { get; set; }
         public float promedio { get; set; }
 
 
-        Alumno(string pNombre, string pApellido, int pDni, string pDireccion, int pTelefono, int pMatricula, Curso pCurso)
+        public Alumno(string pNombre, string pApellido, int pDni, string pDireccion, int pTelefono, int pMatricula)
         : base(pNombre, pApellido, pDni, pDireccion, pTelefono)
         {
-            this.matricula = pMatricula;
-            this.curso = pCurso;
+            this.matricula = pMatricula;            
         }
     }
 }

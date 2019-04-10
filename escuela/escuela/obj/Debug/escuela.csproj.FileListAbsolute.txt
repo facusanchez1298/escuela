@@ -1,0 +1,16 @@
+C:\Users\Usuario\Downloads\escuela-master\escuela\escuela\bin\Debug\escuela.exe.config
+C:\Users\Usuario\Downloads\escuela-master\escuela\escuela\bin\Debug\escuela.exe
+C:\Users\Usuario\Downloads\escuela-master\escuela\escuela\bin\Debug\escuela.pdb
+C:\Users\Usuario\Downloads\escuela-master\escuela\escuela\obj\Debug\escuela.csprojAssemblyReference.cache
+C:\Users\Usuario\Downloads\escuela-master\escuela\escuela\obj\Debug\escuela.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Downloads\escuela-master\escuela\escuela\obj\Debug\escuela.exe
+C:\Users\Usuario\Downloads\escuela-master\escuela\escuela\obj\Debug\escuela.pdb
+D:\c# ejercicios\escuela-facusanchez1298-avance-1\escuela-master\escuela\escuela\bin\Debug\escuela.exe.config
+D:\c# ejercicios\escuela-facusanchez1298-avance-1\escuela-master\escuela\escuela\bin\Debug\escuela.exe
+D:\c# ejercicios\escuela-facusanchez1298-avance-1\escuela-master\escuela\escuela\bin\Debug\escuela.pdb
+D:\c# ejercicios\escuela-facusanchez1298-avance-1\escuela-master\escuela\escuela\obj\Debug\escuela.csprojAssemblyReference.cache
+D:\c# ejercicios\escuela-facusanchez1298-avance-1\escuela-master\escuela\escuela\obj\Debug\escuela.Form1.resources
+D:\c# ejercicios\escuela-facusanchez1298-avance-1\escuela-master\escuela\escuela\obj\Debug\escuela.csproj.GenerateResource.cache
+D:\c# ejercicios\escuela-facusanchez1298-avance-1\escuela-master\escuela\escuela\obj\Debug\escuela.csproj.CoreCompileInputs.cache
+D:\c# ejercicios\escuela-facusanchez1298-avance-1\escuela-master\escuela\escuela\obj\Debug\escuela.exe
+D:\c# ejercicios\escuela-facusanchez1298-avance-1\escuela-master\escuela\escuela\obj\Debug\escuela.pdb

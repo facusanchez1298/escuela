@@ -9,9 +9,27 @@ namespace escuela
     class Asignatura
     {
         public string  nombre {get; set;}
-        public int[] examenes {get; set;}
-        public int[] recuperatorios {get; set;}
+        public List<int> examenes {get; set;}
+        public List<int> recuperatorios {get; set;}
         public List<Asignatura> correlativas {get; set;}
-        public List<Profesor> profesors {get; set;}
+        public List<Profesor> profesores {get; set;}
+
+        public Asignatura(string nombre)
+        {
+            
+            this.nombre = nombre;
+        }
+
+        public void agregarProfesor(Profesor profesor)
+        {
+            if (!this.profesores.Contains(profesor))
+            {
+                this.profesores.Add(profesor);
+            }
+        }
+
+
+
+
     }
 }

@@ -10,11 +10,12 @@ namespace escuela
     {
         private int año { get; set; }
         private char division { get; set; }
+        private Aula aula { get; set; }
         private List<Asignatura> asignaturas { get; set; }
         private List<Alumno> alumnos { get; set; }
-        private Aula aula { get; set; }
+        
 
-        Curso(int año, char division, Aula aula)
+        public Curso(int año, char division, Aula aula)
         {
             this.año = año;
             this.division = division;
@@ -60,6 +61,93 @@ namespace escuela
             }
         }
 
+        public void agregarAlumno(Alumno alumno)
+        {
+            if (!this.lleno())
+            {
+                if (!this.alumnos.Contains(alumno))
+                {
+                    this.alumnos.Add(alumno);
+                    alumno.curso = this;
+                }
+            }
+        }
 
+        public void agregarAlumnos(List<Alumno> alumnos)
+        {
+            for(int i = 0; i < alumnos.Count; i++)
+            {
+                if (lleno())
+                {
+                    throw new Exception("el curso esta lleno en el alumno numero" + (i + 1));
+                }
+
+                if ((!this.alumnos.Contains(alumnos.ElementAt(i))) && (alumnos.ElementAt(i) != null))
+                {
+                    agregarAlumno(alumnos.ElementAt(i));
+                    alumnos.ElementAt(i).curso = this;
+                }
+            }
+        }
+
+        public void borrarAlumno(Alumno alumno)
+        {
+            int index = this.alumnos.IndexOf(alumno);
+
+            if(index != -1)
+            {
+                this.alumnos.Remove(alumno);
+            }
+
+
+        }
+
+        public void vaciarAlumnos()
+        {
+            this.alumnos = new List<Alumno>();
+        }
+        
+        public void cambiarAula(Aula aula)
+        {
+            if (aula.capacidad > this.alumnos.Count) this.aula = aula;
+            else throw new Exception("los alumnos no entran en el aula, pruebe eliminando alumnos o utilizando otra aula");
+        }
+
+        public bool ExisteAlumno(Alumno alumno)
+        {
+            if (alumnos.Contains(alumno)) return true;
+
+            return false;
+        }
+
+        public int getAño()
+        {
+            return this.año;
+        }
+
+        public char getDivision()
+        {
+            return this.division;
+        }
+
+        public Aula getAula()
+        {
+            return this.aula;
+        }
+
+        public String toString()
+        {
+            return ("año: " + this.año +"   division: " + this.division);
+        }
+
+        public bool lleno()
+        {
+            if(this.aula.capacidad == this.alumnos.Count)
+            {
+                return true;
+            }
+
+            return false;
+        }
     }
 }
